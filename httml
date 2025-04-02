@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Trading Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Color Trading Platform</h1>
+
+    <div class="color-container">
+      <h2>Your Color Portfolio</h2>
+      <div id="your-colors">
+        <!-- Your owned colors will be displayed here -->
+      </div>
+    </div>
+
+    <div class="color-container">
+      <h2>Trade Colors</h2>
+      <div id="available-colors">
+        <!-- Available colors for trade will be displayed here -->
+      </div>
+    </div>
+
+    <button id="refresh-btn">Refresh Colors</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
